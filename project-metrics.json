@@ -1,0 +1,84 @@
+{
+  "version": "1.0",
+  "project_root": "/home/kavia/workspace/code-generation",
+  "last_updated": "2026-01-09T19:25:52.420591Z",
+  "sessions_count": 2215,
+  "totals": {
+    "documents_generated": 11287,
+    "files_edited": 141061,
+    "loc": {
+      "added": 7549918,
+      "removed": 3018211,
+      "net": 4531707
+    },
+    "total_cost": 10270.752371399993
+  },
+  "agent_costs": {
+    "PlanningAgent": 0.0,
+    "CodeWritingAgent": 5592284.9796512425,
+    "TestCodeWritingAgent": 0.0,
+    "TestExecutionAgent": 0.0,
+    "BugFixingAndVerificationAgent": 0.0,
+    "QuestionAnsweringAgent": 0.0,
+    "DocumentationAgent": 285716.0948549499,
+    "GeneralistAgent": 0.0,
+    "DesignExtractionAgent": 0.0,
+    "FigmaExtractionAgent": 0.0,
+    "WebsiteExtractionAgent": 0.0,
+    "others": 1484768.6665623502,
+    "KnowledgeDiff": 32467.390241099998
+  },
+  "features": {
+    "build": {
+      "code_generation": 28541,
+      "bug_fixing": 0,
+      "test_generation": 0,
+      "test_execution": 0,
+      "figma_extraction": 0,
+      "documentation": 2339,
+      "image_extraction": 0,
+      "research": 0,
+      "website_extraction": 0,
+      "code_analysis": 0,
+      "document_analysis": 0,
+      "query": 0
+    },
+    "plan": {
+      "requirement_analysis": 0,
+      "architecture_specs": 9591,
+      "design_specs": 0,
+      "interface_specs": 0,
+      "test_planning": 0,
+      "document_creation": 0
+    },
+    "inspect": {
+      "code_analysis": 0,
+      "document_generation": 0,
+      "deep_analysis": 0
+    }
+  },
+  "project_types": {
+    "counts": {
+      "Web Apps": 2215
+    },
+    "sessions_per_platform": {
+      "web": 2215
+    },
+    "sessions_per_framework": {
+      "react": 2215
+    },
+    "unique_platforms_seen": [
+      "web"
+    ],
+    "unique_frameworks_seen": [
+      "react"
+    ]
+  },
+  "sessions_index": [
+    {
+      "session_id": "cf232d17-82e8-4a73-9b3f-ebf5c4729b40",
+      "metrics_path": "/home/kavia/workspace/code-generation/session-metrics.json",
+      "created_at": "2026-01-09T13:15:06.804114Z"
+    }
+  ]
+}
