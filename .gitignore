@@ -30,3 +30,11 @@ logs/
 .metrics.lock
 session-metrics.json
 logs/
+
+# Block internal metadata files
+.project_manifest.yaml
+.task_tracker.json
+.function_call_history
+.metrics.lock
+session-metrics.json
+logs/
