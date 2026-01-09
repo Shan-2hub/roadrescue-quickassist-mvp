@@ -26,20 +26,20 @@
   "project_type": "Web Apps",
   "agent_costs": {
     "PlanningAgent": 0.0,
-    "CodeWritingAgent": 7523.142272799822,
+    "CodeWritingAgent": 8136.33606799979,
     "TestCodeWritingAgent": 0.0,
     "TestExecutionAgent": 0.0,
     "BugFixingAndVerificationAgent": 0.0,
     "QuestionAnsweringAgent": 0.0,
-    "DocumentationAgent": 481.20201165,
+    "DocumentationAgent": 527.11504525,
     "GeneralistAgent": 0.0,
     "DesignExtractionAgent": 0.0,
     "FigmaExtractionAgent": 0.0,
     "WebsiteExtractionAgent": 0.0,
-    "KnowledgeDiff": 47.3064541,
-    "others": 2219.10163285
+    "KnowledgeDiff": 51.6529165,
+    "others": 2498.4630644
   },
-  "total_cost": 8.384625,
+  "total_cost": 8.477655,
   "features": {
     "build": {
       "code_generation": 21,
