@@ -1,48 +1,63 @@
 
-# Block internal metadata files
-.project_manifest.yaml
-.task_tracker.json
-.function_call_history
-.metrics.lock
-session-metrics.json
+# Python ignorables
 logs/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Block internal metadata files
-.project_manifest.yaml
-.task_tracker.json
-.function_call_history
-.metrics.lock
-session-metrics.json
-logs/
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+venv/
+.env
+.env.*
 
-# Block internal metadata files
-.project_manifest.yaml
-.task_tracker.json
-.function_call_history
-.metrics.lock
-session-metrics.json
-logs/
+# Ignore all directories containing pyvenv.cfg
+**/pyvenv.cfg
+**/*/pyvenv.cfg
 
-# Block internal metadata files
-.project_manifest.yaml
-.task_tracker.json
-.function_call_history
-.metrics.lock
-session-metrics.json
-logs/
-
-# Block internal metadata files
-.project_manifest.yaml
-.task_tracker.json
-.function_call_history
-.metrics.lock
-session-metrics.json
-logs/
-
-# Block internal metadata files
-.project_manifest.yaml
-.task_tracker.json
-.function_call_history
-.metrics.lock
-session-metrics.json
-logs/
+# Node.js ignorables
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnp/
+.pnp.js
+.env
+.env.test
+.cache/
+.next/
+.nuxt/
+.vuepress/dist
+.serverless/
+.fusebox/
+.dynamodb/
+.file_activity_report.json
+*.db
+core.*
+.core
+*.log
+post_process_status.lock
